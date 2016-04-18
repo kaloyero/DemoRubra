@@ -1,0 +1,166 @@
+{
+	"lastModifiedDate": "28-07-2015 16:50:00",
+	"events": [
+		{
+			"eventId": 1,
+			"type": "MASTERCLASS",
+			"title": "Colour Contour",
+			"performerId": 10,
+			"date": "2015-09-14",
+			"startTime": "18:45",
+			"endTime": "19:25",
+			"endH": 19,
+			"endM": 25,
+			"performer": {
+				"name": "Carolyn Newman & Marc Trinder",
+				"brand": "Charles Worthington",
+				"country": "UK"
+			}
+        },
+		{
+			"eventId": 2,
+			"type": "SHOW",
+			"title": "Hair & Fashion",
+			"performerId": 2,
+			"date": "2015-09-14",
+			"startTime": "19:25",
+			"endTime": "20:00",
+			"endH": 20,
+			"endM": 0,
+			"performer": {
+				"name": "Franco Curletto",
+				"brand": "",
+				"country": "Italy"
+			}
+        },
+		{
+			"eventId": 3,
+			"type": "MASTERCLASS",
+			"title": "Cut",
+			"performerId": 5,
+			"performer": {
+				"name": "Hidetoshi Saiga",
+				"brand": "",
+				"country": "Japan"
+			}
+        },
+		{
+			"eventId": 4,
+			"type": "MASTERCLASS",
+			"title": "Colour",
+			"performerId": 11,
+			"performer": {
+				"name": "Eric Zemmour",
+				"brand": "",
+				"country": "France"
+			}
+        },
+		{
+			"eventId": 5,
+			"type": "BUSINESS",
+			"title": "Speaker",
+			"performerId": 6,
+			"performer": {
+				"name": "Susie Santiago",
+				"brand": "",
+				"country": "Australia"
+			}
+        },
+		{
+			"eventId": 6,
+			"type": "MASTERCLASS",
+			"title": "Korea Style",
+			"performerId": 9,
+			"date": "2015-09-15",
+			"startTime": "18:30",
+			"endTime": "19:15",
+			"endH": 19,
+			"endM": 15,
+			"performer": {
+				"name": "Kang Sung Woo",
+				"brand": "",
+				"country": "South Korea"
+			}
+        },
+		{
+			"eventId": 7,
+			"type": "INTERVIEW",
+			"title": "with Hair Icon",
+			"performerId": 8,
+			"date": "2015-09-15",
+			"startTime": "19:15",
+			"endTime": "19:45",
+			"endH": 19,
+			"endM": 45,
+			"performer": {
+				"name": "Trevor Sorbie/ 50 Years",
+				"brand": "",
+				"country": "UK"
+			}
+        },
+		{
+			"eventId": 8,
+			"type": "SHOW",
+			"title": "Blonde",
+			"performerId": 4,
+			"date": "2015-09-15",
+			"startTime": "19:45",
+			"endTime": "20:15",
+			"endH": 20,
+			"endM": 15,
+			"performer": {
+				"name": "Berni Ottjes",
+				"brand": "",
+				"country": "Netherlands"
+			}
+        },
+		{
+			"eventId": 9,
+			"type": "MASTERCLASS",
+			"title": "Master Colourist",
+			"performerId": 1,
+			"date": "2015-09-16",
+			"startTime": "18:00",
+			"endTime": "18:45",
+			"endH": 18,
+			"endM": 45,
+			"performer": {
+				"name": "Jason Backe & Drew Schaefering",
+				"brand": "",
+				"country": "USA"
+			}
+        },
+		{
+			"eventId": 10,
+			"type": "BUSINESS",
+			"title": "Trends",
+			"performerId": 7,
+			"date": "2015-09-16",
+			"startTime": "18:45",
+			"endTime": "19:15",
+			"endH": 19,
+			"endM": 15,
+			"performer": {
+				"name": "Tom Savigar",
+				"brand": "The Future Lab",
+				"country": "UK"
+			}
+        },
+		{
+			"eventId": 11,
+			"type": "SHOW",
+			"title": "IT Looks",
+			"performerId": 3,
+			"date": "2015-09-16",
+			"startTime": "19:25",
+			"endTime": "20:00",
+			"endH": 20,
+			"endM": 0,
+			"performer": {
+				"name": "Philippe Laurent",
+				"brand": "",
+				"country": "France"
+			}
+        }
+    ]
+}

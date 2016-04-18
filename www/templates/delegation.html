@@ -1,0 +1,26 @@
+<ion-view view-title="WELCOME">
+	<ion-nav-bar class="bar-stable"></ion-nav-bar>
+	<ion-content class="padding">
+		<p>Dear Attendee,</p>
+
+		<p>This application is a tool to embellish your experience here, in Cannes, with L’Oreal Profesionnel. Please let us know what delegation you came with, so that we are able to guide you better.</p>
+
+		<p>Have a nice day !</p>
+
+		<p>The Team</p>
+		
+		<form novalidate>
+			<div class="list">
+				<label class="item item-input item-select">
+					<div class="input-label">Delegation</div>
+					<select ng-model="user.delegation">
+						<option></option>
+						<option ng-repeat="item in delegations">{{item}}</option>
+					</select>
+				</label>
+			</div>
+			
+			<button type="submit" ng-click="submit()" class="button button-outline button-light button-block">OK</button>
+		</form>
+	</ion-content>
+</ion-view>

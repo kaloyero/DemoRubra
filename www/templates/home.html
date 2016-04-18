@@ -1,0 +1,34 @@
+<ion-view view-title="Inicio">
+	<ion-nav-bar class="bar-stable"></ion-nav-bar>
+    
+	<ion-content class="home-background">
+
+		<div class="center"><img src="img/logo_rubra.png" class="home-logo" /></div><!-- un "margin: auto" dans la classe de l'image ne permet pas de centrer :^\ -->
+
+        <!--<div class="bigfont center padding-bottom">Evento | XX mmmmmm 2016</div>-->
+
+		<a href="#/app/program" class="home-item" menu-close nav-direction="forward">
+			<div class="icon-circle"><img src="img/iconhome-program.png" alt="program" /></div><div class="home-item-text">Agenda</div>
+		</a>
+		<a href="#/app/performers" class="home-item" menu-close nav-direction="forward">
+			<div class="icon-circle"><img src="img/iconhome-performers.png" alt="performers" /></div><div class="home-item-text">Staff / Speakers</div>
+		</a>
+		<a href="#/app/photosvideos" class="home-item" menu-close nav-direction="forward">
+			<div class="icon-circle"><img src="img/iconhome-picturesvideos.png" alt="pictures & videos" /></div><div class="home-item-text">DESCARGAS</div>
+		</a>
+<!--		<a href="#/app/mykit" class="home-item" menu-close nav-direction="forward">
+			<div class="icon-circle"><img src="img/iconhome-educationalkit.png" alt="educational kit" /></div><div class="home-item-text">MY KIT</div>
+		</a>
+-->		
+		<a href="#/app/citylife" class="home-item" menu-close nav-direction="forward">
+			<div class="icon-circle"><img src="img/iconhome-citylife.png" alt="city life" /></div><div class="home-item-text">Informacion General</div>
+		</a>
+		<a href="#/app/connect" class="home-item" menu-close nav-direction="forward">
+			<div class="icon-circle"><img src="img/iconhome-connect.png" alt="connect" /></div><div class="home-item-text">Contacto</div>
+		</a>
+		<a ng-if="nbSurveys > 0" href="#/app/survey" class="home-item" menu-close nav-direction="forward">
+			<div class="icon-circle"><img src="img/iconhome-survey.png" alt="live feedback" /></div><div class="home-item-text">Encuesta</div>
+		</a>
+	
+	</ion-content>
+</ion-view>

@@ -1,0 +1,49 @@
+<ion-view view-title="Contacto">
+
+	<ion-content class="padding">
+		<div class="connect-icons">
+			<a ng-click="openExternal('https://www.facebook.com/rubraeventos?fref=ts')" class="ext-link fiveiconbar">
+				<img src="img/icon-facebook.png" alt="Facebook" />
+			</a>
+<!--			<a ng-click="openExternal('https://twitter.com/lbf_team')" class="ext-link fiveiconbar">
+				<img src="img/icon-twitter.png" alt="Twitter" />
+			</a>
+			<a ng-click="openExternal('https://www.youtube.com/user/Lorealbusinessforum')" class="ext-link fiveiconbar">
+				<img src="img/icon-youtube.png" alt="YouTube" />
+			</a>-->
+			<a ng-click="openExternal('https://www.instagram.com/rubraeventos/?modal=true')" class="ext-link fiveiconbar">
+				<img src="img/icon-instagram.png" alt="Instagram" />
+			</a>
+			<a ng-click="openExternal('http://www.rubraeventos.com.ar')" class="ext-link fiveiconbar">
+				<img src="img/logo_rubra.png" alt="Rubra" />
+			</a>
+		</div>
+		<p class="center">
+			<a ng-click="openExternal('http://www.rubraeventos.com.ar')" class="button button-clear button-light">Rubra Eventos Website</a>
+		</p>
+		<p class="center" ng-if="!feedLoaded">
+			<ion-spinner class="spinner-light"></ion-spinner>
+		</p>
+		
+<!--		<div class="list card item-twitter" ng-repeat="item in feed | unique:'id'" ng-click="openExternal('{{item.link}}')">
+			<div class="item item-avatar">
+				<img ng-src="{{ item.user.picture }}" />
+				<h2>{{ item.user.name }}</h2>
+				<small>@{{ item.user.pseudo }}</small>
+				<small class="time"> {{ item.created | formatTwitterDate}}</small>
+			</div>
+			
+			<div ng-if="item.type == typeTwitter" class="item item-body">
+				<p ng-bind-html="item.text | formatTwitterText"></p>
+			</div>
+			
+			<div ng-if="item.type == typeInstagram" class="item item-image">
+				<img ng-src="{{item.image}}" />
+			</div>
+		</div>
+-->		
+		<a ng-click="openExternal('https://www.facebook.com/rubraeventos?fref=ts')" class="button button-block button-outline button-light">Ver Mas</a>
+		<br />
+
+	</ion-content>
+</ion-view>

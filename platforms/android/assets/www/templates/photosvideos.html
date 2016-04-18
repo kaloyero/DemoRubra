@@ -1,0 +1,58 @@
+<ion-view view-title="Descargas">
+	<ion-content scroll="false">
+		<ion-tabs class="tabs-dark">
+
+			<ion-tab title="Pdf" on-select="onTabSelected('Photos')">
+				<ion-content class="padding">
+					<div class="gallery">
+						<div class="gallery-item" >
+						<!--	<img src="{{item.url}}" class="fullwidth" />-->
+							<img src="https://estupidosvectores.files.wordpress.com/2013/06/pdf.jpg" class="fullwidth" />
+						</div>
+					</div>
+				</ion-content>
+			</ion-tab>
+
+		
+			<ion-tab title="Imagen" on-select="onTabSelected('Photos')">
+				<ion-content class="padding">
+					<div class="gallery">
+						<div class="gallery-item" >
+						<!--	<img src="{{item.url}}" class="fullwidth" />-->
+							<img src="http://www.rubraeventos.com.ar/assets/img/tit/cultura/innovacion.png" class="fullwidth" />
+							<img src="http://www.rubraeventos.com.ar/assets/img/tit/cultura/innovacion.png" class="fullwidth" />
+							<img src="http://www.rubraeventos.com.ar/assets/img/tit/cultura/innovacion.png" class="fullwidth" />
+							<img src="http://www.rubraeventos.com.ar/assets/img/tit/cultura/innovacion.png" class="fullwidth" />
+						</div>
+					</div>
+				</ion-content>
+			</ion-tab>
+
+			<ion-tab title="Video" on-select="onTabSelected('Videos')">
+				<ion-content class="padding">
+					<div class="card" ng-repeat="item in videos">
+						<!--
+						<div class="item item-wrap item-button-right">
+							<h2>{{item.title}}</h2>
+							<p>{{item.creationDate}}</p>
+							<button class="button button-clear button-light" ng-click="share('{{item.url}}')"><i class="icon ion-android-share-alt"></i>
+							</button>
+						</div>
+
+						<div class="item item-image">
+							<div ng-if="showIframe" class="video-container">
+								<iframe src="{{'https://www.youtube.com/embed/' + item.key}}" allowfullscreen="true"></iframe>
+							</div>
+							<div ng-if="!showIframe">
+								<img ng-src="https://i.ytimg.com/vi/{{item.key}}/hqdefault.jpg"/>
+								<button ng-click="openExternal('{{item.url}}')" class="button button-clear button-light icon ion-play bt-play-youtube"></button>
+							</div>
+						</div>-->
+					</div>
+					<br />
+				</ion-content>
+			</ion-tab>
+
+		</ion-tabs>
+	</ion-content>
+</ion-view>

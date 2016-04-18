@@ -1,0 +1,24 @@
+{
+    "lastModifiedDate": "22-07-2015 17:00:00",
+    "restaurants": [
+        {
+            "id": 1,
+            "name": "Resto 1",
+            "adress": "Calle xxx, Buenos Aires",
+            "tel": "+ 4 44 55 66 77",
+            "site": "http://www.google.com",
+            "lat": -44.548459,
+            "lon": -48.011745
+        },
+        {
+            "id": 2,
+            "name": "Resto 2",
+            "adress": "Calle xxx, Buenos Aires",
+            "tel": "+ 4 44 55 66 77",
+            "site": "http://www.google.com",
+            "lat": -44.548459,
+            "lon": -48.011745
+        }
+    ]
+
+}
